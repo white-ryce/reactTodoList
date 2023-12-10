@@ -1,0 +1,111 @@
+
+/* Styling for root of the app */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #DFC98A;
+  border-style: solid;
+  /*
+  border-color:rgb(210, 207, 207);
+  */
+  border-color: black;
+  box-shadow: 60px -16px skyblue;
+}
+
+.App h1
+{
+  text-decoration: underline;
+  color: rgb(24, 23, 23);
+}
+
+/* Styling of the input */
+.input-wrapper input
+{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Styleing for the box for each item in todo list */
+.todo
+{
+  background-color: rgb(160, 216, 239);
+  border-style: solid;
+  border-color: gray;
+  border-width: .5px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2px 1px rgba(43, 0, 255, 0.2);
+}
+
+/* When item is hovered over */
+.todo:hover
+{
+  background-color: rgb(33, 174, 234);
+  border-width: 2px;
+  border-color: black;
+}
+
+/* Text inside the list */
+.todo li
+{
+  font-size: 20px;
+  color: rgb(36, 48, 51);
+  font-weight: bold;
+}
+
+/* Text inside the list when hovered over */
+.todo:hover li
+{
+  color: rgb(233, 233, 233);
+}
+
+/* Removing the dot from the list */
+ul
+{
+  list-style-type: none;
+}
+
+/* Styling the add button */
+.add-button 
+{
+  background-color: rgb(98, 152, 240);
+  color: white;
+  border-radius: 25px;
+  font-size: 22px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+/* Styling the add button when hovered over */
+.add-button:hover
+{
+  background-color: rgb(94, 227, 89);
+  color: black;
+}
+
+/* Styling the delete button */
+.delete-button 
+{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  width: 75px;
+}
+
+/* Styling the delete button when hovered over */
+.delete-button:hover
+{
+  background-color: rgb(248, 42, 42);
+  color: black;
+}
+
+/* Styling the text when no items are in the list */
+.emptyText
+{
+  font-weight: bold;
+  font-size: 30px;
+}
